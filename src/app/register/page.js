@@ -14,7 +14,7 @@ import { createOrder } from "../../../actions/useraction"
 
 
 export default function RegisterPage() {
-  const { payment } = router.query;
+  
 
 
   const [isSubmitting, setIsSubmitting] = useState(false) // Added for loading state
